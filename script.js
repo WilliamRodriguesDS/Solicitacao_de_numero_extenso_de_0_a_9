@@ -1,7 +1,7 @@
 function solicitarNumeroExtenso(){
-    let solicitacao = parseFloat(prompt("Digite um número de 0 a 9"));
+    let solicitador = parseFloat(prompt("Digite um número de 0 a 9"));
 
-    switch(solicitacao){
+    switch(solicitador){
         case 0:
             alert("Número extenso de 0 é zero");
             break;
