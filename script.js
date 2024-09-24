@@ -4,7 +4,7 @@ function escrever(mensagem){
 }
 
 function solicitarNumeroExtenso(){
-    let solicitador = parseFloat(document.querySelector("#solicitador").value);
+    let solicitador = parseInt(document.querySelector("#solicitador").value);
     let msg;
 
     switch(solicitador){
