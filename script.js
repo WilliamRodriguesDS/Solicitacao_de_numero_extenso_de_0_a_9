@@ -49,7 +49,7 @@ function solicitarNumeroExtenso(){
             escrever(msg);
             break;
         default:
-            msg = "Número fora do intervalo, tente novamente!";
+            msg = "Erro, tente novamente!";
             escrever(msg);
     }
 }
